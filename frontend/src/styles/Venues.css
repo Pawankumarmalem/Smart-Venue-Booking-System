@@ -1,0 +1,53 @@
+.venues-page{
+    padding:40px;
+    background:#F5F7FB;
+    min-height:100vh;
+}
+
+.venues-page h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.venues-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.venue-card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.venue-card:hover{
+    transform:translateY(-6px);
+}
+
+.venue-card h2{
+    color:#2563EB;
+    margin-bottom:15px;
+}
+
+.venue-card p{
+    margin:10px 0;
+}
+
+.venue-card button{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border:none;
+    border-radius:10px;
+    background:#2563EB;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.venue-card button:hover{
+    background:#1D4ED8;
+}

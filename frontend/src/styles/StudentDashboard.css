@@ -1,0 +1,139 @@
+/* ================= Dashboard ================= */
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+    background: #f4f7fc;
+    overflow-x: hidden;
+}
+
+/* ================= Sidebar ================= */
+
+.sidebar{
+    width:340px;
+    min-width:340px;
+    max-width:340px;
+
+    background:#1E3A8A;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+
+    padding:30px;
+    box-sizing:border-box;
+
+    flex-shrink:0;
+}
+
+/* Logo */
+
+.sidebar h2 {
+    margin: 0 0 50px;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+
+    white-space: nowrap;
+}
+
+/* Navigation */
+
+.sidebar a {
+    display: block;
+
+    width: 100%;
+
+    padding: 16px 0;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 24px;
+    font-weight: 500;
+
+    white-space: nowrap;
+
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #93C5FD;
+    padding-left: 12px;
+}
+
+/* Logout */
+
+.sidebar button {
+    margin-top: auto;
+
+    width: 100%;
+
+    padding: 15px;
+
+    background: #ef4444;
+    color: white;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.sidebar button:hover {
+    background: #dc2626;
+}
+
+/* ================= Main ================= */
+
+.main-content {
+    flex: 1;
+    padding: 50px;
+}
+
+.main-content h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+    color: #0F172A;
+}
+
+.main-content p {
+    font-size: 22px;
+    color: #64748b;
+}
+
+/* ================= Cards ================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+
+    text-align: center;
+}
+
+.card h3 {
+    color: #2563EB;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.card h1 {
+    color: #2563EB;
+    font-size: 52px;
+}

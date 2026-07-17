@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:#f5f7fb;
+}
+
+.admin-dashboard{
+    padding:40px;
+    text-align:center;
+}
+
+.admin-dashboard h1{
+    color:#1d4ed8;
+    font-size:45px;
+}
+
+.profile-card{
+
+    width:260px;
+    margin:30px auto;
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.profile-card img{
+
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    margin-bottom:15px;
+
+}
+
+.profile-card h2{
+
+    margin:0;
+    color:#2563eb;
+
+}
+
+.profile-card p{
+
+    color:#666;
+    font-size:18px;
+
+}
+
+.cards{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:40px;
+
+}
+
+.card{
+
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.card h2{
+
+    font-size:45px;
+    margin:0;
+
+}
+
+.card h3{
+
+    color:#2563eb;
+
+}
+
+.actions{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:40px;
+
+}
+
+.btn{
+
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:12px;
+    border:none;
+    cursor:pointer;
+    font-size:18px;
+
+}
+
+.btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+.logout{
+
+    background:#ef4444;
+
+}
+
+.logout:hover{
+
+    background:#dc2626;
+
+}
