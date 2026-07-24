@@ -102,17 +102,25 @@ Do not commit your secrets to GitHub.
 ## 📸 Screenshots
 
 Add screenshots of:
-
+<img width="1920" height="972" alt="Home page" src="https://github.com/user-attachments/assets/d7476813-5f65-45d3-80ba-c48b9c00ec6d" />
 - Home Page
-- Login
+<img width="1920" height="977" alt="register page" src="https://github.com/user-attachments/assets/21e0204f-45c1-4430-b51b-8b3f650678cf" />
 - Registration
+<img width="1920" height="974" alt="login page" src="https://github.com/user-attachments/assets/0f71869f-e8b7-448f-9604-7bda79dcf4bf" />
+- Login
+<img width="1920" height="1020" alt="admin dashboard" src="https://github.com/user-attachments/assets/202a5e10-dc9d-48d3-a5db-f421dd2417b8" />
+- Admin Dashboard
+<img width="1920" height="956" alt="student dashboard" src="https://github.com/user-attachments/assets/3807cc9f-8379-4555-bd9d-5caf76d0a81f" />
+- Student Dashboard
+<img width="1920" height="970" alt="venue page" src="https://github.com/user-attachments/assets/c02cef60-53ab-4f76-8174-7e11ec591197" />
 - Venue Listing
+<img width="1920" height="1020" alt="Booking page" src="https://github.com/user-attachments/assets/1d1d33e0-68de-46c1-9851-3966910d080d" />
+
 - Booking Page
-- Dashboard
 
 ## 👨‍💻 Author
 
-**Pavan Kumar**
+**Malem Pawan Kumar**
 
 GitHub:
 https://github.com/Pawankumarmalem
