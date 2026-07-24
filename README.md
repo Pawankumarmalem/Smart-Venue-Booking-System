@@ -4,8 +4,7 @@ A full-stack web application that enables users to browse venues, register, log 
 
 ## 🚀 Live Demo
 
-- Frontend: https://smartvenueproject.vercel.app
-- Backend: https://smart-venue-booking-system.onrender.com
+- Link : https://smartvenueproject.vercel.app
 
 ## ✨ Features
 
