@@ -13,7 +13,7 @@ function VenueCard({ image, name, capacity, price }) {
 
         <p>💰 ₹{price}/hour</p>
 
-        <button>Book Now</button>
+        {/* <button>Book Now</button> */}
       </div>
 
     </div>
